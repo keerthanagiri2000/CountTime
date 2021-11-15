@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #screen{
+            height: 200%;
+            width: 400px;
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+            font-size: 70px;
+            color: rgb(97, 14, 14);
+            border: 1px solid rgb(39, 152, 172);
+            border-width: 5px;
+            background: rgb(41, 152, 196);
+            
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <div id="screen">
+
+    </div>
+    <script>
+        
+        setTimeout(function(){
+            document.getElementById("screen").innerText="10"
+            setTimeout(function(){
+                document.getElementById("screen").innerText="9"
+                setTimeout(function(){
+                    document.getElementById("screen").innerText="8"
+                    setTimeout(function(){
+                        document.getElementById("screen").innerText="7"
+                           setTimeout(function(){
+                               document.getElementById("screen").innerText="6"
+                                   setTimeout(function(){
+                                    document.getElementById("screen").innerText="5"
+                                       setTimeout(function(){
+                                         document.getElementById("screen").innerText="4"
+                                            setTimeout(function(){
+                                                document.getElementById("screen").innerText="3"
+                                                    setTimeout(function(){
+                                                        document.getElementById("screen").innerText="2"
+                                                           setTimeout(function(){
+                                                               document.getElementById("screen").innerText="1"
+                                                               setTimeout(function(){
+                                                                   document.getElementById("screen").innerText="Happy birthday"
+                                                               }, 1000);
+                                                           }, 1000);
+                                                    }, 1000);
+                                            },1000);
+                                   }, 1000);
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
+        
+    </script>
+</body>
+</html>
